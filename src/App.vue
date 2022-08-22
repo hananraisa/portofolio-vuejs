@@ -5,7 +5,7 @@ import { RouterLink, RouterView } from 'vue-router'
 
 <template>
  
-    <!-- <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" /> -->
+    
 
     <div class="wrapper">
       <nav>
@@ -23,10 +23,10 @@ import { RouterLink, RouterView } from 'vue-router'
 
 
 nav {
-  font-size: 12px;
+  font-size: 15px;
   text-align: center;
-  margin-top: -150px;
-  margin-right: -300px;
+  margin-top: -100px;
+  margin-right: -650px;
 }
 
 nav a{
