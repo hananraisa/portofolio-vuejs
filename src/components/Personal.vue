@@ -1,4 +1,4 @@
-<!-- <script setup>
+<script setup>
 defineProps({
   msg: {
     type: String,
@@ -14,4 +14,4 @@ defineProps({
         Front-End Developer
     </h3>
   </div>
-</template> -->
+</template>
