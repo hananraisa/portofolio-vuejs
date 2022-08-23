@@ -1,6 +1,7 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-
+import Personal from './components/Personal.vue'
+import Footer from './components/Footer.vue'
 </script>
 
 <template>
@@ -14,23 +15,23 @@ import { RouterLink, RouterView } from 'vue-router'
       </nav>
 
     </div>
-
+    
 
   <RouterView />
+  <Footer />
 </template>
 
 <style scoped>
 
 
 nav {
-  font-size: 15px;
-  text-align: center;
-  margin-top: -100px;
-  margin-right: -650px;
+  font-size: 20px;
+  margin-top: 40px;
+  margin-right: 550px;
 }
 
 nav a{
-margin-left: 9px;
+  margin-left: 9px;
 }
 
 nav a.router-link-exact-active {
@@ -51,6 +52,15 @@ nav a:first-of-type {
   border: 0;
 }
 
+.footer{
+  background-color: cornflowerblue;
+  color: white;
+  width: 1225px;
+  border-radius: 10px;
+  margin-right: -1225px;
+  margin-top: 10px;
+}
+
 @media (min-width: 1024px) {
   header {
     display: flex;
@@ -63,7 +73,6 @@ nav a:first-of-type {
     text-align: right;
     margin-left: 1rem;
     font-size: 1rem;
-
     padding: 1rem 0;
   }
 }

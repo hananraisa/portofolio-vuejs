@@ -1,17 +1,12 @@
 <script setup>
-defineProps({
-  msg: {
-    type: String,
-    required: true
-  }
-})
+import Personal from '@/components/Personal.vue'
 </script>
 
 <template>
   <div class="greetings">
     <h1 class="green">{{ msg }}</h1>
-    <h3>
-        Front-End Developer
-    </h3>
+    <h1>HANAN RAISA PUTRI</h1>
+    <h3>Front-End Developer</h3>
   </div>
 </template>
+

@@ -37,7 +37,6 @@ import Personal from '@/components/Personal.vue'
             </div>
           </div>           
         </div>
-        
     </div>
   </div>
 </template>
@@ -70,6 +69,7 @@ import Personal from '@/components/Personal.vue'
   justify-content: center;
   display: flex;
 }
+
 .foto{
   margin-left: 30px;
   margin-top: 50px;

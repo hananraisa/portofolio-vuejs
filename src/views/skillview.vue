@@ -53,7 +53,7 @@
 background-color: cornflowerblue;
 color: white;
 height: 600px;
-width: 1200px;
+width: 1220px;
 border-radius: 10px;
 justify-content: space-evenly;
 }
@@ -79,4 +79,5 @@ margin-left: 30px;
   width: 90%;
   margin-left: 50px;
 }
+
 </style>
